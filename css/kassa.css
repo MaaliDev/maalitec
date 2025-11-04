@@ -16,6 +16,7 @@ main {
     background-image: url(/images/20.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
 
 }
 

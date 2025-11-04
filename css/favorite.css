@@ -16,10 +16,11 @@ main {
     align-items: center;
     justify-content: center;
     color: var(--second-color);
+    min-height:100vh ;
 }
 
 main h2{
-    font-size: 5rem;
+    font-size: 3rem;
     line-height: 50px;
 }
 
