@@ -539,7 +539,7 @@ footer nav a{
         transition: right 0.75s ease-in-out;
         font-size: 14px;
 
-        height: calc(100vh - 101px);
+        height: calc(130vh - 101px);
     overflow-y: scroll;
         /* alltid visa scroll, fungerar stabilt */
         -webkit-overflow-scrolling: touch;
