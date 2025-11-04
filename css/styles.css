@@ -534,10 +534,9 @@ footer nav a{
         z-index: 12;
         width: 90%;
         background-color: var(--first-color);
-        padding: 20px;
+        padding: 0 20px;
         transition: right 0.75s ease-in-out;
         font-size: 14px;
-        flex-wrap: wrap;
 
     }
     .left-under-header {
@@ -545,7 +544,7 @@ footer nav a{
         align-items: flex-start;
         width: 100%;
         flex-wrap: wrap;
-        padding: 20px 0;
+        padding: 10px 0;
         }
 
     .left-under-header a {
