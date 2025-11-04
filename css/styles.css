@@ -527,15 +527,16 @@ footer nav a{
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
+        flex-direction: column;
         right: -100%;
         position: fixed;
         min-height: 100%;
         overflow: scroll;
         top: 101px;
         z-index: 12;
-        width: 90%;
+        width: 100%;
         background-color: var(--first-color);
-        padding: 20px;
+        padding: 20px 0;
         transition: right 0.75s ease-in-out;
         font-size: 14px;
         align-items: start;
@@ -545,7 +546,9 @@ footer nav a{
     .left-under-header, .right-under-header {
         display: flex;
         align-items: flex-start;
+        flex-direction: row;
         flex-wrap: wrap;
+        padding: 10px;
         }
 
     .left-under-header a {
@@ -560,7 +563,7 @@ footer nav a{
          padding: 0;
          margin: 0;
          position: static;
-         width: 100%;
+         width: 50%;
 
         }
 
