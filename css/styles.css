@@ -539,11 +539,9 @@ footer nav a{
         transition: right 0.75s ease-in-out;
         font-size: 14px;
 
-        height: calc(130vh - 101px);
-    overflow-y: scroll;
-        /* alltid visa scroll, fungerar stabilt */
-        -webkit-overflow-scrolling: touch;
-                /* ← gör att scroll fungerar mjukt på mobil */
+        height: calc(200vh - 101px);
+    overflow-y: auto;
+
 
     }
     .left-under-header {
