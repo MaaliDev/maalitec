@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+
+
+main {
+    padding: 20px 10px;
+
+    background-color: var(---color);
+
+
+    max-width: 100%;
+    justify-content: start;
+    color: var(--first-color);
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/20.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+form{
+        background-color: rgba(255, 255, 255, 0.32);
+        padding: 20px;
+
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        min-width: 80%;
+
+   
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+            min-width: 200px;
+                max-width: 50%;
+
+
+}
+
+fieldset input{
+    padding: 5px 10px;
+
+}
+
+main a{
+    padding: 5px 10px;
+    background-color: var(--first-color);
+    color: var(--fourth-color);
+    text-decoration: none;
+    width: 180px;
+    text-align:  center;
+    margin:20px 0;
+}
+
+main a:hover {
+    background-color: var(--third-color);
+    color: var(--first-color);
+
+
+}
+
+
+

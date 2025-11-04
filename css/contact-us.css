@@ -1,0 +1,68 @@
+@charset "UTF-8";
+body{
+    background-image: url('/images/18.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+main{
+    padding: 20px 10px;   
+    gap: 20px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    min-width: 280px;
+    width: 100%;
+    margin: auto;
+
+
+}
+
+
+section input {
+    padding: 5px;
+    border: solid 1px var(--first-color);
+    outline: none;
+    min-width: 200px;
+    width: 50%;
+}
+
+
+
+section textarea {
+    padding: 5px;
+    height: 200px;
+    border: solid 1px var(--first-color);
+    outline: none;
+    min-width: 200px;
+        width: 50%;
+}
+
+section input:focus, section textarea:focus {
+    padding: 5px;
+    border: solid 2px var(--second-color);
+    outline: none;
+}
+
+section a{
+    background-color: var(--first-color);
+    text-align:  center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: var(--fourth-color);
+    padding: 5px 0;
+    width: 150px;
+    margin-bottom: 100px;
+}
+
+section a:hover{
+    background-color: var(--second-color);
+    color: var(--third-color);
+    transition: all 0.75s;
+
+}
