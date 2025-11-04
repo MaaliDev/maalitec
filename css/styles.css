@@ -541,6 +541,8 @@ footer nav a{
 
         height: calc(100vh - 101px);
         overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+                /* ← gör att scroll fungerar mjukt på mobil */
 
     }
     .left-under-header {
