@@ -363,13 +363,12 @@ main {
 }
 
 .product{
-    max-width: 15%;
+    max-width: 200px;
     padding: 20px;
     box-shadow: 0px 0px 10px 1px rgba(202, 202, 202, 0.356);
     background-color: white;
     border-radius: 4px;
     display: flex;
-    font-size: 0.8vw;
     flex-wrap: wrap;
     border-radius: 4px;
 }
