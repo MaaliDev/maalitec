@@ -540,8 +540,9 @@ footer nav a{
         font-size: 14px;
 
         height: calc(100vh - 101px);
-        overflow-y: auto;
-            -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+        /* alltid visa scroll, fungerar stabilt */
+        -webkit-overflow-scrolling: touch;
                 /* ← gör att scroll fungerar mjukt på mobil */
 
     }
