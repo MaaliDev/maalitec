@@ -529,14 +529,18 @@ footer nav a{
         justify-content: flex-start;
         right: -100%;
         position: fixed;
+        min-height: 100%;
+        overflow: scroll;
         top: 101px;
-        bottom: -101px;
         z-index: 12;
         width: 90%;
         background-color: var(--first-color);
         padding: 0 20px;
         transition: right 0.75s ease-in-out;
         font-size: 14px;
+
+        height: calc(100vh - 101px);
+        overflow-y: auto;
 
     }
     .left-under-header {
