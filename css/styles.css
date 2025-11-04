@@ -363,7 +363,7 @@ main {
 }
 
 .product{
-    max-width: 200px;
+    width: 180px;
     padding: 20px;
     box-shadow: 0px 0px 10px 1px rgba(202, 202, 202, 0.356);
     background-color: white;
@@ -371,6 +371,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     border-radius: 4px;
+    line-height: 20px;
 }
 
 
@@ -393,6 +394,7 @@ main {
 }
 
 .product-box a{
+    margin-top: 10px;
     padding: 5px 10px;
     display: flex;
     text-align: center;
