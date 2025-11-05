@@ -55,13 +55,13 @@ header{
 }
 
 .rapport{
-    background-color: var(--first-color);
     display: flex;
     justify-content: center;
+    border-bottom: solid 1px var(--second-color);
 }
 
 .rapport a {
-    color: var(--fifth-color);
+    color: var(--first-color);
 }
 
 .above-header {
