@@ -52,10 +52,18 @@ header{
     box-shadow: 0px 0px 2px 2px rgba(148, 148, 148, 0.18);
     z-index: 11;
 
-
-
-
 }
+
+.rapport{
+    background-color: var(--first-color);
+    display: flex;
+    justify-content: center;
+}
+
+.rapport a {
+    color: var(--fifth-color);
+}
+
 .above-header {
 
 
