@@ -280,7 +280,7 @@ header{
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background-image: url('/images/11.jpg');
+    background-image: url('../images/11.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
