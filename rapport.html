@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rapport för uppgift 3 i Webbteknik 1</title>
+    <style>
+      html {
+        font-size: 16px;
+      }
+
+      body {
+        background-color: #fff;
+        color: #000;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        max-width: 80ch;
+        margin-left: 2ch;
+      }
+
+      header,
+      section {
+        border-bottom: 1px solid #999;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      p {
+        text-align: justify;
+      }
+
+      h2 {
+        margin-bottom: 0.2em;
+      }
+
+      h3 {
+        margin-top: 0.2em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Rapport för uppgift 3</h1>
+    </header>
+    <main>
+      <section>
+        <h2>1. Syfte och målgrupp</h2>
+        <p>
+          I uppgiften skapades en webbplats för <strong>Maalitec</strong>, en
+          e-handelsbutik som säljer mobiltillbehör såsom mobilskal, skärmskydd,
+          laddare och hörlurar. Organisationen vill nå både nya och befintliga
+          kunder och erbjuda dem en smidig och säker möjlighet att handla sina
+          tillbehör online.
+        </p>
+
+        <p>
+          Syftet med webbplatsen är mångfacetterat: för det första ska besökare
+          kunna enkelt hitta och köpa produkter; för det andra ska de erbjudas
+          möjligheten att bli medlemmar för att ta del av exklusiva erbjudanden
+          och rabatter; och för det tredje ska webbplatsen fungera som en kanal
+          för kunder att kontakta företaget vid frågor, support eller
+          reklamationer. Målet är att skapa en användarvänlig och tillgänglig
+          webbplats som stärker Maalitecs varumärke och ökar försäljningen.
+        </p>
+
+        <p>
+          Målgruppen består av personer i Sverige som använder mobiltelefoner,
+          oavsett ålder, kön eller bakgrund. Dock har analysen identifierat en
+          särskild delgrupp: ungdomar och unga vuxna som är särskilt
+          intresserade av att skydda och anpassa sina mobiltelefoner med
+          stiliga, funktionella och hållbara tillbehör. Denna grupp är ofta
+          aktiva på sociala medier, van vid onlinehandel och söker snabba och
+          enkla lösningar.
+        </p>
+
+        <h3>Användarnas behov</h3>
+        <ul>
+          <li>
+            <strong>Enkel shoppingupplevelse:</strong> Användarna behöver kunna
+            hitta produkter snabbt, filtrera och jämföra dem samt enkelt lägga
+            dem i varukorgen och genomföra köp.
+          </li>
+          <li>
+            <strong>Bra priser och erbjudanden:</strong> Besökare vill ha
+            tillgång till prisvärda produkter och få information om kampanjer
+            eller medlemsförmåner, vilket gör medlemskap attraktivt.
+          </li>
+          <li>
+            <strong>Kontaktmöjligheter:</strong> Användarna vill enkelt kunna
+            kontakta företaget via formulär, e-post eller telefon för frågor,
+            support eller reklamationer, utan krångel eller långa väntetider.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>2. Kravspecifikation</h2>
+
+        <h3>Innehåll</h3>
+        <ul>
+          <li>
+            Startsidan ska innehålla en tydlig presentation av Maalitec, med
+            hero-bild, kort beskrivning av företaget och länkar till viktiga
+            produkter och kampanjer.
+          </li>
+          <li>
+            Produktavdelningen ska visa olika kategorier av mobiltillbehör
+            (t.ex. skal, skärmskydd, laddare och hörlurar) med bilder, pris och
+            kort beskrivning.
+          </li>
+          <li>
+            Medlemsavdelningen ska förklara fördelarna med medlemskap och ge
+            användaren möjlighet att registrera sig för erbjudanden.
+          </li>
+          <li>
+            Kontaktavdelningen ska innehålla ett kontaktformulär och information
+            om e-post, telefonnummer och öppettider.
+          </li>
+          <li>
+            Rapportsida med information om utvecklingsprocessen, målgrupp och
+            kravspecifikation.
+          </li>
+          <li>
+            Bilder och grafiska element ska vara optimerade för webben,
+            redigerade i ett bildredigeringsprogram och anpassade för olika
+            skärmstorlekar.
+          </li>
+        </ul>
+
+        <h3>Funktion</h3>
+        <ul>
+          <li>
+            Användaren ska kunna navigera enkelt mellan startsida,
+            produktavdelning, medlemsavdelning, kontakt och rapport.
+          </li>
+          <li>
+            Produkter ska kunna filtreras eller sorteras efter kategori, pris
+            eller popularitet.
+          </li>
+          <li>
+            Kontaktformuläret ska innehålla minst tre olika typer av
+            inmatningsfält (t.ex. textfält, e-postfält, radioknappar eller
+            rullgardinsmeny) och en skicka-knapp.
+          </li>
+          <li>
+            Webbplatsen ska vara responsiv och fungera på skärmar från 320px och
+            uppåt, med flexibel layout via CSS Grid eller Flexbox.
+          </li>
+          <li>
+            Bildmaterial ska använda <code>&lt;picture&gt;</code>-element för
+            att leverera olika bildstorlekar beroende på skärmstorlek.
+          </li>
+          <li>
+            Global navigering ska finnas på alla sidor, lokal navigering på
+            avdelningar med flera undersidor (t.ex. produktkategorier).
+          </li>
+          <li>
+            All CSS ska finnas i en separat fil, med undantag för rapporten som
+            kan ha intern CSS.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>3. Beskrivning av arbetet</h2>
+        <p>
+          Vid skapandet av webbplatsen <strong>Maalitec</strong> har Garretts
+          fem plan använts som vägledning för att strukturera designprocessen:
+        </p>
+        <ul>
+          <li>
+            <strong>Strategiplan:</strong> Syftet med webbplatsen är att
+            presentera Maalitec och sälja mobiltillbehör. Målgruppen är ungdomar
+            och vuxna i Sverige som vill ta hand om sina mobiler. Webbplatsen
+            ska uppfylla användarnas behov av enkel navigation, tydliga
+            produktbeskrivningar, kontaktmöjligheter och medlemsförmåner.
+          </li>
+          <li>
+            <strong>Omfattningsplan:</strong> Kravspecifikationen fastställde
+            vilka sidor och funktioner som skulle finnas, såsom
+            produktkategorier, kontaktformulär, global och lokal navigering,
+            samt responsiv design.
+          </li>
+          <li>
+            <strong>Strukturplan:</strong> Informationsarkitekturen
+            organiserades med huvudkategorier för produkter och undersidor. Den
+            globala menyn leder till alla huvudsektioner, medan lokal navigering
+            finns på produktkategorisidorna för enkel åtkomst till specifika
+            produkter.
+          </li>
+          <li>
+            <strong>Skeletplan:</strong> Wireframes skapades för att visa
+            placering av menyer, bilder, produktlistor och formulär. CSS Grid
+            och Flexbox användes för layout och för att säkerställa
+            responsivitet på olika skärmstorlekar.
+          </li>
+          <li>
+            <strong>Ytplan:</strong> Visuell design utvecklades med färger,
+            typografi och bildmaterial som passar målgruppen. Bilder anpassades
+            med <code>&lt;picture&gt;</code>-element för olika skärmstorlekar
+            och all CSS-styling placerades i en extern fil för konsistens över
+            webbplatsen (Garrett, 2011, s. 25-50).
+          </li>
+        </ul>
+        <p>
+          Genom att följa Garretts modell kunde webbplatsen utvecklas
+          systematiskt, där varje steg tydligt kopplade användarnas behov till
+          webbplatsens funktion och layout.
+        </p>
+      </section>
+      <section>
+        <h2>4. Bilder</h2>
+        <p>
+          Bilderna har redigerats i ett bildredigeringsprogram, där följande
+          gjorts:
+        </p>
+        <ul>
+          <li>
+            Produktbilderna har beskärts och optimerats för webben för att
+            minska filstorlek och förbättra laddningstider.
+          </li>
+          <li>
+            Hero-bilden på startsidan har justerats i kontrast och ljusstyrka
+            för att framhäva volontärer och produkterna.
+          </li>
+          <li>
+            Alla bilder har fått alternativa texter (alt-texter) för bättre
+            tillgänglighet och SEO.
+          </li>
+        </ul>
+        <p>Picture-elementet används på följande sidor:</p>
+        <ul>
+          <li>
+            Startsidan: <code>&lt;picture&gt;</code>-element används för
+            hero-bilden. En mindre bild laddas på mobilskärmar (max-width:
+            600px) och en större på stationära skärmar (min-width: 601px).
+          </li>
+          <li>
+            Produktkategorisidor: <code>&lt;picture&gt;</code>-element används
+            för produktbilder så att olika storlekar visas beroende på
+            skärmstorlek.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>5. Utvärdering mot kravspecifikationen</h2>
+        <h3>Innehåll</h3>
+        <ul>
+          <li>
+            Produktinformation: Alla produkter har tydliga bilder, beskrivningar
+            och priser.
+          </li>
+          <li>
+            Erbjudanden och medlemskap: Sidan för medlemskap visar förmåner och
+            aktuella erbjudanden.
+          </li>
+          <li>
+            Kontaktinformation: Kontaktformulär och telefonnummer finns
+            lättillgängligt på sidan "Kontakt".
+          </li>
+        </ul>
+        <h3>Funktion</h3>
+        <ul>
+          <li>
+            Global navigering: Menyn finns på alla sidor och fungerar som tänkt.
+          </li>
+          <li>
+            Lokal navigering: Produktkategorierna är tydligt uppdelade.
+            Uppfyllt.
+          </li>
+          <li>
+            Formulär med olika inmatningstyper: Kontaktformuläret fungerar
+            korrekt med textfält, e-postfält och kryssrutor.
+          </li>
+          <li>
+            Responsiv design: Webbplatsen fungerar på alla skärmstorlekar,
+            bilder och layout anpassas via CSS och <code>&lt;picture&gt;</code>.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>6. Användartest</h2>
+        <h3>- med metoden "Tänka högt" (Thinking Out Loud)</h3>
+        <p>
+          För användartestet bad jag tre personer i målgruppen (unga vuxna med
+          mobiltelefoner) att navigera på webbplatsen samtidigt som de beskrev
+          sina tankar högt. Testet visade följande:
+        </p>
+        <ul>
+          <li>
+            Navigering: Två av testpersonerna hade initialt svårt att hitta
+            erbjudanden. Åtgärd: lade till en tydligare länk i huvudmenyn.
+          </li>
+          <li>
+            Produktbilder: En testperson tyckte att vissa bilder var för små på
+            mobil. Åtgärd: använde <code>&lt;picture&gt;</code> för att visa
+            större bilder på mindre skärmar.
+          </li>
+          <li>
+            Kontaktformulär: Alla testpersoner fyllde i formuläret utan problem. Ingen åtgärd behövdes.
+          </li>
+        </ul>
+        <p>
+          Efter dessa justeringar blev webbplatsen mer användarvänlig och
+          testpersonerna kunde enkelt hitta produkter, erbjudanden och
+          kontaktinformation.
+        </p>
+      </section>
+      <section>
+        <h2>Källförteckning</h2>
+        <p>
+          Garrett, J.J. (2011)
+          <em
+            >The Elements of User Experience: User-Centered Design for the Web
+            and Beyond</em
+          >. 2nd edition. Berkeley: New Riders.
+        </p>
+        <p>
+          [Eventuella andra källor du använt, t.ex. webbplatser eller artiklar,
+          listas här på samma sätt enligt Harvard-stilen.]
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
