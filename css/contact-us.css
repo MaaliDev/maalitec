@@ -24,10 +24,11 @@ section{
 
 
 section input {
-    padding: 5px;
+    padding: 10px;
     border: solid 1px var(--first-color);
     outline: none;
     width: 60%;
+    box-sizing: border-box;
 }
 
 
@@ -38,6 +39,7 @@ section textarea {
     border: solid 1px var(--first-color);
     outline: none;
     width: 60%;
+        box-sizing: border-box;
 }
 
 section input:focus, section textarea:focus {
