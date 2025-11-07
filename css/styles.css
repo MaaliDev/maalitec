@@ -764,6 +764,7 @@ footer nav a{
         box-sizing: border-box;  
         align-items: center; 
         justify-content: center;
+        background-color: var(--fourth-color);
     }
 
     .sidebar-btn-container{
@@ -772,7 +773,7 @@ footer nav a{
 
         justify-content: space-around;
         background-color: var(--fourth-color);
-        padding: 0 5px;
+        padding: 3px;
     }
         .sidebar-btn{
             width: 50px;
@@ -782,6 +783,11 @@ footer nav a{
 
         .right-header a, #open-menu, #close-menu{
         font-size: 0;
+    }
+
+    .section2{
+        width: 100%;
+        padding: 0;
     }
    
 }
