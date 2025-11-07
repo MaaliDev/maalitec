@@ -27,6 +27,7 @@ body {
     background-color: var(--fifth-color);
     overflow-x: hidden;
     margin: 0;
+    width: 100%;
 
 
 
@@ -753,16 +754,22 @@ footer nav a{
         display: flex;
         position: fixed;
         z-index: 9;
-        bottom: 0;
+        bottom: -3px;
         width: 100%;
         top: auto;
+        right: 0;
+        left: 0;
         height: 70px; 
-        box-shadow: 1px 0px 2px 0px rgb(74, 73, 73);    
+        box-shadow: 1px 0px 2px 0px rgb(74, 73, 73); 
+        box-sizing: border-box;  
+        align-items: center; 
+        justify-content: center;
     }
 
     .sidebar-btn-container{
         flex-direction: row;
-        width: 100%;
+        width: 90%;
+
         justify-content: space-around;
         background-color: var(--fourth-color);
         padding: 0 5px;
