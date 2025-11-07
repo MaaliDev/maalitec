@@ -32,14 +32,13 @@ fieldset{
     display: flex;
     flex-direction: column;
     padding: 20px;
-            min-width: 200px;
-                max-width: 50%;
+    width: 60%;
 
 
 }
 
 fieldset input{
-    padding: 5px 10px;
+    padding: 10px;
 
 }
 
@@ -60,5 +59,11 @@ main a:hover {
 
 }
 
+@media(max-width: 1200px) {
+
+    form, fieldset {
+        width: 90%;
+    }
+}
 
 
