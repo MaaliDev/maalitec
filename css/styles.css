@@ -14,21 +14,24 @@ color: var(--first-color);
 }
 
 html, body {
-    max-width: 2000px;
     min-width: 350px;
     min-height: 100vh;
-    margin:auto;
+    margin: auto;
+
+
+
 }
 
 body {
-    margin: 0;
     padding: 0;
     background-color: var(--fifth-color);
     overflow-x: hidden;
+    margin: 0;
+
 
 
     display: grid;
-    grid-template-columns: 120px 7fr;    
+    grid-template-columns: 120px minmax(auto, 2000px);    
     grid-template-rows: min-content min-content min-content auto min-content;
     grid-template-areas:
         "header header"
@@ -36,9 +39,11 @@ body {
         "sidebar above-main "
         "sidebar main"
         "footer footer";
+        justify-content: center;
 }
 
 /* ........ HEADER ........ */
+
 
 header{
     grid-area: header;
@@ -495,9 +500,11 @@ section{
 .sidebar{
     grid-area: sidebar;
     display: flex;
-    position: fixed;
-    top: 100px;
+    top: 101px;
     justify-content: start;
+    position: sticky;
+    height: min-content;
+
 }
 
 .sidebar-btn-container {
