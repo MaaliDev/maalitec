@@ -50,7 +50,6 @@ header{
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    min-width: 350px;    
     margin: 0;
     background-color: var(--fourth-color);
     padding: 0 10px;
