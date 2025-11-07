@@ -16,8 +16,7 @@ main{
 section{
     display: flex;
     flex-direction: column;
-    min-width: 280px;
-    width: 100%;
+    width: 80%;
     margin: auto;
 
 
@@ -28,8 +27,7 @@ section input {
     padding: 5px;
     border: solid 1px var(--first-color);
     outline: none;
-    min-width: 200px;
-    width: 50%;
+    width: 60%;
 }
 
 
@@ -39,8 +37,7 @@ section textarea {
     height: 200px;
     border: solid 1px var(--first-color);
     outline: none;
-    min-width: 200px;
-        width: 50%;
+    width: 60%;
 }
 
 section input:focus, section textarea:focus {
@@ -65,4 +62,10 @@ section a:hover{
     color: var(--third-color);
     transition: all 0.75s;
 
+}
+
+@media(max-width: 1200px){
+    section, section textarea, section input{
+        width: 90%;
+    }
 }
