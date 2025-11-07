@@ -4,7 +4,7 @@
 main {
     padding: 20px 10px;
 
-    background-color: var(---color);
+    background-color: var(--color);
 
 
     max-width: 100%;

@@ -88,7 +88,6 @@ header{
     font-size: 30px;
     text-decoration: none;
     color: var(--first-color);
-    line-height: none;
     align-items: start;
     padding: 0 5px;
     
@@ -364,6 +363,13 @@ section{
     border-bottom: solid 1px var(--second-color);
 }
 
+.section-img img{
+    width: 100%;
+}
+
+.section-img {
+    padding: 20px 0;
+}
 
 .section1{
     display: flex;
@@ -390,8 +396,11 @@ section{
 }
 
 
-.product h1, .product p {
+.product h2, .product p {
     padding: 0;
+}
+.product h2 {
+    margin-top: 10px;
 }
 
 .product-box{
@@ -415,7 +424,6 @@ section{
     text-align: center;
     background-color: #ff9b04;
     text-decoration: none;
-    columns: var(--first-color);
 }
 
 .discount{
@@ -462,6 +470,10 @@ section{
         min-width: 250px;
         text-align: center;
         box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
 
 }
 
@@ -471,6 +483,7 @@ section{
     color: var(--third-color);
     border-radius: 5px;
     text-decoration: none;
+    width: 300px;
 }
 
 .section3 p {
@@ -551,6 +564,7 @@ footer h1, h2, h3, p{
     flex-wrap: wrap;
     border-left: solid 2px var(--fourth-color);
     margin-top: 10px;
+    border-top: solid 2px;
 }
 
 .footer-p, footer nav, .footer-post {
@@ -588,6 +602,8 @@ footer nav a{
     display: flex;
     text-align: center;
     justify-content: center;
+    border-top: solid 1px;
+
 }
 
 @media (max-width: 1200px ){
@@ -700,7 +716,7 @@ footer nav a{
         z-index: 8;
         background-color: rgba(0, 0, 0, 0.776);
         backdrop-filter: blur(2px);
-        -webkit-backdrop-filter: (2px);
+        -webkit-backdrop-filter: 2px;
         transition: all 0.75s;
     
         }

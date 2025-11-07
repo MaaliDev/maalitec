@@ -64,6 +64,16 @@ section a:hover{
 
 }
 
+.map{
+    width: 100%;
+}
+
+.map iframe{
+    width: 100%;
+    height: 500px;
+}
+
+
 @media(max-width: 1200px){
     section, section textarea, section input{
         width: 90%;
